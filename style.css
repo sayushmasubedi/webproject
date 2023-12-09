@@ -1,0 +1,134 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0; /* No margin around the body */
+    padding: 0; /* No padding around the body */
+    background-color: #ffffff; /* Light background color */
+    color: white; /* Text color */
+}
+
+/* Styling the header section */
+header {
+    background-color: #3498db; /* Blue background for the header */
+    color: white; /* Text color for the header */
+    padding: 1em; /* Padding inside the header */
+    display: flex; /* Using flexbox for layout */
+    justify-content: space-between; /* Spacing elements within the header */
+    align-items: center; /* Aligning items within the header */
+}
+
+/* Styling the logo within the header */
+.logo a {
+    text-decoration: none; /* No underline for the logo */
+    color: white; /* Text color for the logo */
+    font-weight: 700; /* Bold font for the logo */
+}
+
+/* Styling the navigation menu */
+nav ul {
+    list-style: none; /* Removing default list styles */
+    display: flex; /* Using flexbox for navigation */
+}
+
+nav ul li {
+    margin-right: 20px; /* Margin between navigation items */
+}
+
+nav a {
+    text-decoration: none; /* No underline for navigation links */
+    color: white; /* Text color for navigation links */
+    font-weight: 700; /* Bold font for navigation links */
+}
+
+/* Styling for the main content section */
+section {
+    max-width: 800px; /* Maximum width for the content section */
+    margin: 20px auto; /* Margin around the content section */
+    padding: 20px; /* Padding inside the content section */
+    background-color: #ffffff; /* Blue section background */
+    color: black; /* Text color within the section */
+    border-radius: 8px; /* Rounded corners for the section */
+    display: flex; /* Using flexbox for layout */
+    flex-direction: column; /* Content direction: column */
+    align-items: center; /* Aligning items within the section */
+    justify-content: center; /* Centering content vertically */
+}
+
+/* Styling for images */
+img {
+    max-width: 100%; /* Image width not exceeding its container */
+    height: auto; /* Maintaining aspect ratio */
+    border: 1px solid #ddd; /* Border style for images */
+    border-radius: 4px; /* Rounded corners for images */
+    padding: 5px; /* Padding around images */
+}
+
+/* Styling for price display */
+.price {
+    font-size: 1.5em; /* Font size for the price */
+    color: white; /* Text color for the price */
+    margin-top: 10px; /* Margin from the top */
+}
+
+/* Styling for a specific product link/button */
+#product a {
+    background-color: #3498db; /* Blue button color */
+    color: #ffffff; /* Text color for the button */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 1em; /* Font size for the button */
+    position: absolute; /* Absolute positioning for the button */
+    border: none; /* No border for the button */
+    top: 750px; /* Position from the top */
+    text-align: center; /* Center-align the button text */
+    left: 30%; /* Position from the left */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Cursor style on hover */
+}
+
+/* Styling for button hover effect */
+button:hover {
+    background-color: #2980b9; /* Slightly darker shade on hover */
+}
+
+/* Styling for the about section */
+#about {
+    background-color: #ffffff; /* White background for the about section */
+    padding: 50px; /* Padding inside the about section */
+}
+
+/* Styling for the content within the about section */
+.about-content {
+    line-height: 2; /* Line height for content */
+    max-width: 800px; /* Maximum width for content */
+    margin: 0 auto; /* Centering content horizontally */
+    color: black; /* Text color within the about section */
+}
+
+.about-content img {
+    max-width: 100%; /* Image width not exceeding its container */
+    height: auto; /* Maintaining aspect ratio */
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #3498db; /* Blue footer background */
+    color: #fff; /* Text color for the footer */
+    text-align: center; /* Center-align text in the footer */
+    padding: 10px; /* Padding inside the footer */
+    position: static; /* Default position */
+    bottom: 0; /* Fixed to the bottom */
+    width: 100%; /* Full width */
+}
+
+/* Styling for a call-to-action button within the footer */
+.cta-button {
+    position: absolute; /* Absolute positioning for the button */
+    right: 400px; /* Distance from the right edge */
+    display: inline-block; /* Display as inline block */
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #fff; /* White background for the button */
+    color: #3498db; /* Text color for the button */
+    text-decoration: none; /* No underline for the button */
+    font-weight: 600; /* Font weight for the button */
+    border-radius: 5px; /* Rounded corners for the button */
+}

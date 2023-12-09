@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <div id="sidebar">
+        <a href="#" onclick="closeSidebar()">Close</a>
+        <div id="selectedItem">Selected Item: </div>
+        <div id="totalDisplay">Total:$0</div>
+    </div>
+    <header>
+        <div class="logo"><a href="index.html">Type-o-Master</a></div>
+        <a href="feedback.html" class="cta-button" id="feed">Give Feedback</a>
+        <nav>
+            <ul>
+                <!-- all the lis tags and links on the nav bar like support, about us etc. -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <section id="product-details">
+        <div class="product-image">
+        </div>
+        <div class="product-info">
+            <img src="BlueTypewriter (2).png" alt="Blue Typewriter - Model X">
+
+            <h2>Product Description</h2>
+            <p>Introducing the Blue Typewriter - Model X, a masterpiece in vintage typewriting. Immerse yourself in the nostalgia of classic mechanical typing with a touch of modern craftsmanship.</p>
+
+            <h2>Specifications</h2>
+            <ul>
+                <li>Color: Abyssal Blue</li>
+                <li>Material: Metal and Plastic</li>
+                <li>Weight: 8.5 lbs</li>
+                <li>Dimensions: 12" x 14" x 6"</li>
+                <li>Key Type: Mechanical Keys</li>
+                <li>Compatibility: Universal</li>
+            </ul>
+
+            <p class="price">$49.99</p>
+            <button onclick="openSidebar()">Add to Cart</button>
+        </div>
+    </section>
+    <section id="product-details">
+        <div class="product-image">
+        </div>
+        <div class="product-info">
+            <img src="BlackTypewriter.png" alt="Blue Typewriter - Model X">
+
+            <h2>Product Description</h2>
+            <p>Introducing the Black Typewriter - Model Y, a masterpiece in vintage typewriting. Immerse yourself in the nostalgia of classic mechanical typing with a touch of modern craftsmanship.</p>
+
+            <h2>Specifications</h2>
+            <ul>
+                <li>Color: Black</li>
+                <li>Material: Metal </li>
+                <li>Weight: 11 lbs</li>
+                <li>Dimensions: 12" x 14" x 6"</li>
+                <li>Key Type: Mechanical Keys</li>
+                <li>Compatibility: Universal</li>
+            </ul>
+
+            <p class="price">$69.99</p>
+            <button onclick="openSidebar()">Add to Cart</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Type-o-Master. All rights reserved.</p>
+    </footer>
+<script src="product.js"></script>
+</body>
+</html>

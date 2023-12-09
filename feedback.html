@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo"><a href="index.html">Type-o-Master</a></div>
+        <a href="feedback.html" class="cta-button" id="feed">Give Feedback</a>
+        <nav>
+            <ul>
+                <!-- all the lis tags and links on the nav bar like support, about us etc. -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contact-form">
+        <form id="feedbackForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="number">Your Contact:</label>
+            <input type="number" id="number" name="number" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <div id="error-message"></div>
+
+            <button type="button" onclick="submitForm()">Submit Feedback</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; Type-o-Master. All rights reserved.</p>
+    </footer>
+<script src="feedback.js"></script>
+</body>
+</html>

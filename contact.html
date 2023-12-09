@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">Type-o-Master</a></div>
+        <a href="feedback.html" class="cta-button" id="feed">Give Feedback</a>
+        <nav>
+            <ul>
+                <!-- all the lis tags and links on the nav bar like support, about us etc. -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Have questions or feedback? Reach out to us!</p>
+    
+        <form id="contactForm" onsubmit="submitForm(event)">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    <footer>
+        <p>&copy; Type-o-Master. All rights reserved.</p>
+    </footer>
+    <script src="contact.js"></script>
+</body>
+</html>
